@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-cli-roman-numeral'
+  name: 'ember-cli-format-roman-numeral'
 };

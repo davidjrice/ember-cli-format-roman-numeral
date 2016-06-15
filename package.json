@@ -1,7 +1,7 @@
 {
-  "name": "ember-cli-roman-numeral",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "name": "ember-cli-format-roman-numeral",
+  "version": "0.0.1",
+  "description": "Format Decimal number as Roman numeral",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -36,7 +36,6 @@
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
-    "ember-welcome-page": "^1.0.1",
     "loader.js": "^4.0.1"
   },
   "keywords": [
