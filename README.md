@@ -1,26 +1,34 @@
-# Ember-cli-roman-numeral
+# format-roman-numeral (ember-cli)
 
-This README outlines the details of collaborating on this Ember addon.
+Format a Decimal number as Roman numeral. An [ember-cli](https://ember-cli.com/) addon.
 
 ## Installation
+
+```shell
+ember install ember-cli-format-roman-numeral
+```
+
+## Usage
+
+```hbs
+  {{ format-roman-numeral 1}} => I
+  {{ format-roman-numeral 2}} => II
+  {{ format-roman-numeral 3}} => III
+  {{ format-roman-numeral 4}} => IV
+```
+
+## Development
+
+Of the **addon** itself.
+
+### Installation
 
 * `git clone` this repository
 * `npm install`
 * `bower install`
 
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
+### Running Tests
 
 * `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
